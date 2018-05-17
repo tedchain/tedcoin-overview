@@ -1023,11 +1023,11 @@ In our case we simply make a http requests to the node and show the responses in
 
 A screenshot from the blockchain explorer:
 
-![alt tag](https://i.imgur.com/wAp1ZZF.png)
+![alt tag](https://i.imgur.com/wJwIKBI.png)
 
 ### Wallet UI
 For the wallet UI we will also create a similar website as in the case of blockchain explorer. The user should be able to send coins and view the balance of address. We will also show the transaction pool.
 
 A screenshot from the wallet:
 
-![alt tag](https://i.imgur.com/E4wMjqC.png)
+![alt tag](https://i.imgur.com/m5G3I58.png)
