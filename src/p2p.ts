@@ -38,7 +38,7 @@ const initConnection = (ws: WebSocket) => {
     initErrorHandler(ws);
     write(ws, queryChainLengthMsg());
 
-    // query transactions pool only some time after chain query
+    // query transactions pool only some time after chain query.
     setTimeout(() => {
         broadcast(queryTransactionPoolMsg());
     }, 500);
