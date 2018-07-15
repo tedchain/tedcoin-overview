@@ -45,7 +45,7 @@ const genesisBlock: Block = new Block(
 
 let blockchain: Block[] = [genesisBlock];
 
-// the unspent txOut of genesis block is set to unspentTxOuts on startup
+// the unspent txOut of genesis block is set to unspentTxOuts on startup.
 let unspentTxOuts: UnspentTxOut[] = processTransactions(blockchain[0].data, [], 0);
 
 const getBlockchain = (): Block[] => blockchain;
